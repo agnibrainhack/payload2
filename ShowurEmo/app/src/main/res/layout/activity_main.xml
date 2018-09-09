@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:layout_weight="0.09"
+        android:background="@drawable/title_image"
+        android:padding="16dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:text="Keep Smiling"
+        android:textSize="45sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:textColor="@drawable/circ_button"/>
+
+</LinearLayout>
